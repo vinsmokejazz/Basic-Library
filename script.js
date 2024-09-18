@@ -15,7 +15,7 @@ function addBookToLibrary(title, author, pages, read) {
 
 function displayBooks() {
     const bookContainer = document.getElementById("bookContainer");
-    bookContainer.innerHTML = ""; // Clear previous display
+    bookContainer.innerHTML = ""; 
 
     myLibrary.forEach((book, index) => {
         const bookCard = document.createElement("div");
@@ -63,6 +63,6 @@ document.getElementById("closeDialog").onclick = function() {
     document.getElementById("bookDialog").close(); // Close the dialog
 };
 
-// Add some initial books for demonstration
+
 addBookToLibrary("Harry Potter", "J.K. Rowling", 400, true);
 addBookToLibrary("Lord of the Rings", "J.R.R. Tolkien", 700, false);

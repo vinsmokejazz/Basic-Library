@@ -60,9 +60,9 @@ document.getElementById("bookForm").onsubmit = function(event) {
 };
 
 document.getElementById("closeDialog").onclick = function() {
-    document.getElementById("bookDialog").close(); // Close the dialog
+    document.getElementById("bookDialog").close(); 
 };
 
-// Add some initial books for demonstration
+
 addBookToLibrary("Harry Potter", "J.K. Rowling", 400, true);
 addBookToLibrary("Lord of the Rings", "J.R.R. Tolkien", 700, false);

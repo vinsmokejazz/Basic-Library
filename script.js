@@ -61,7 +61,7 @@ document.getElementById("bookForm").onsubmit = function(event) {
 };
 
 document.getElementById("closeDialog").onclick = function() {
-    document.getElementById("bookDialog").close(); // Close the dialog
+    document.getElementById("bookDialog").close(); 
 };
 
 
